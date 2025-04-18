@@ -19,6 +19,27 @@ pip install https://huggingface.co/czmahi/xformers-windows-torch2.8-cu128-py312/
 ✅ No need to build from source or downgrade PyTorch!
 
 ---
+## 📦 update: 
+ 
+torchaudio
+
+pip install --upgrade --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu128
+
+wheel: 
+
+https://download.pytorch.org/whl/nightly/cu128/torch-2.8.0.dev20250416+cu128-cp312-cp312-win_amd64.whl
+
+
+## 📦 Installation xformers update
+
+Install directly via `pip` from Hugging Face:
+
+```bash
+pip install https://huggingface.co/czmahi/xformers-windows-torch2.8-cu128-py312/resolve/main/xformers-0.0.30+f2de641e.d20250418-cp312-cp312-win_amd64.whl --no-deps
+```
+
+✅ No need to build from source or downgrade PyTorch! 
+
 
 ## ⚙️ Build Info
 

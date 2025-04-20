@@ -43,7 +43,7 @@ python -c "import torch; print(torch.__version__)"
 Now install the `.whl` directly:
 
 ```bash
-pip install https://huggingface.co/czmahi/xformers-windows-torch2.8-cu128-py312/resolve/main/xformers-0.0.30+c5c0720c.d20250413-cp312-cp312-win_amd64.whl --no-deps
+pip install https://huggingface.co/czmahi/xformers-windows-torch2.8-cu128-py312/resolve/main/xformers-0.0.30+f2de641e.d20250418-cp312-cp312-win_amd64.whl --no-deps
 ```
 
 ---

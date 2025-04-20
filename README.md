@@ -1,25 +1,47 @@
 # 🧱 xFormers for Windows: Torch 2.8.0.dev + CUDA 12.8 + Python 3.12
 
-🚀 Precompiled `xformers` wheel for **Windows**, built from the official [facebookresearch/xformers](https://github.com/facebookresearch/xformers) repository.  
-This build is fully compatible with:
-- **PyTorch 2.8.0.dev + cu128**
-- **Python 3.12**
-- **CUDA 12.8**
+## ✅ Installation Guide for xFormers (Torch 2.8.0.dev + CUDA 12.8 + Python 3.12)
 
----
+This prebuilt wheel is tested and built for:
 
-## 📦 Installation
+- ✅ Python **3.12.x**
+- ✅ PyTorch **2.8.0.dev (nightly)** with **CUDA 12.8**
+- ✅ Windows 64-bit
 
-Install directly via `pip` from Hugging Face:
+### 🔧 1. Install Python 3.12
+
+Download and install from:  
+👉 https://www.python.org/downloads/release/python-3120/
+
+Make sure Python and pip are available in your terminal:
 
 ```bash
-pip install https://huggingface.co/czmahi/xformers-windows-torch2.8-cu128-py312/resolve/main/xformers-0.0.30%2Bc5c0720c.d20250413-cp312-cp312-win_amd64.whl --no-deps
+python --version
+pip --version
 ```
 
-✅ No need to build from source or downgrade PyTorch!
+---
+
+### ⚙️ 2. Install Nightly Torch, TorchVision, and TorchAudio
+
+Use the official PyTorch nightly index for CUDA 12.8:
+
+```bash
+pip install --upgrade --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu128
+```
+
+> ✅ Confirm version after install:
+
+```bash
+python -c "import torch; print(torch.__version__)"
+# Should show: 2.8.0.dev + cu128
+```
 
 ---
-## 📦 update: 
+## 📦 update version: 
+before install update version see here for update 
+
+https://github.com/czmahi/xformers-windows-torch2.8-cu128-py312/blob/main/README_xformers_install.md
  
 torchaudio
 

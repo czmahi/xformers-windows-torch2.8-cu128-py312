@@ -7,7 +7,7 @@ This prebuilt wheel is tested and built for:
 - ✅ Python **3.12.x**
 - ✅ PyTorch **2.8.0.dev (nightly)** with **CUDA 12.8**
 - ✅ Windows 64-bit
-
+- ✅ RTX 3000 series cards will work nividia Windows 64-bit
 ### 🔧 1. Install Python 3.12
 
 Download and install from:  

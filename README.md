@@ -44,9 +44,12 @@ torchaudio must install
 ```bash
 pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu128
 ```
-wheel: 
 
-https://download.pytorch.org/whl/nightly/cu128/torch-2.8.0.dev20250416+cu128-cp312-cp312-win_amd64.whl
+```bash
+pip install https://download.pytorch.org/whl/nightly/cu128/torch-2.8.0.dev20250416+cu128-cp312-cp312-win_amd64.whl --no-deps
+```
+
+download wheel for local setup: https://download.pytorch.org/whl/nightly/cu128/torch-2.8.0.dev20250416+cu128-cp312-cp312-win_amd64.whl
 
 
 ## 📦 Installation xformers update version : 
